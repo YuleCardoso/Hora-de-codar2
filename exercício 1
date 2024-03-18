@@ -1,0 +1,7 @@
+ var numero1 = prompt("digite o 1° numero")    
+    var numero2 = prompt("digite o 2° numero")
+    if (numero1 > numero2){
+        alert (numero1 +", este numero é o maior")
+    }else if  ( numero2 > numero1 ){
+        alert(numero2 + ", este numero é o maior")   
+    }
