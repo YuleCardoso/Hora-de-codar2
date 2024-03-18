@@ -1,0 +1,10 @@
+var numero1 = prompt("digite o 1 numero")
+    var numero2 = prompt("digite o 2 numero")    
+    var numero3 = prompt("digite o 3 numero")
+    if (numero1 > numero2 && numero1 > numero3){
+        alert (numero1 +", este numero é o maior")
+    }else if  ( numero2 > numero1 && numero2 > numero3){
+        alert(numero2 + ", este numero é o maior"    
+    }else if ( numero3 > numero2 && numero3 > numero1 ){
+        alert (numero3 +", este numero é o maior entre eles")
+    }
