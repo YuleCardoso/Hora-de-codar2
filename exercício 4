@@ -1,0 +1,8 @@
+var numero1 = parseFloat(prompt("digite o 1 numero"));
+var numero2 = parseFloat(prompt("digite o 2 numero")); 
+var numero3 = parseFloat(prompt("digite o 3 numero"));
+var numeros = [numero1, numero2, numero3];
+    numeros.sort(function(a, b) { return b - a; });
+        
+    var somaNumeros = numeros[0] + numeros[1];
+    alert("A soma dos dois maiores números é: " + somaNumeros); 
