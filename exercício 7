@@ -1,0 +1,14 @@
+          var numeros = []; 
+          var soma = 0
+
+             for(var i = 0; i<=5; i++){
+               i++
+          var numero = parseFloat(prompt("Adicione o " + i + " ° número" ));
+               i--
+             if(numero<72){
+                 numeros[i] = numero 
+                 soma += numeros[i]
+             }else {
+                 numeros[i] = numero
+             }
+         }
