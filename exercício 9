@@ -1,0 +1,8 @@
+        var data = parseFloat(prompt('coloque o ano que você nasceu: '))
+        var soma = 2024-data
+
+          if(soma >=16) {
+            alert('você pode  votar !')
+        }else{
+            alert('você não pode votar')
+        }
